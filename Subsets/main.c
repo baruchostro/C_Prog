@@ -9,7 +9,7 @@ int main()
     arr[0] = 1;
     arr[1] = 3;
     arr[2] = 5;
-    int * newArr = NULL;
-    FindSubsets(arr, N, newArr, 0);
+    FindSubsets(arr, N);
+    free(arr);
     return 0;
 }
